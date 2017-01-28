@@ -53,3 +53,18 @@
    53  git status
    54  git add backup.sql
    55  history > history.txt
+   56  git add history.tct
+   57  git add history.txt
+   58  git status
+   59  git commit -m "first commit, nothing important her"
+   60  get config --global user.email "pds28@njit.edu"
+   61  git config --global user.email "pds28@njit.edu"
+   62  git config --global user.name "Parth Shah"
+   63  git commit -m "first commit, nothing important her"
+   64  git commit -m "first commit, nothing important here"
+   65  sudo apt-get install gitk
+   66  gitk
+   67  git log
+   68  git remote add origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+   69  git push -u origin master
+   70  history > history.txt
