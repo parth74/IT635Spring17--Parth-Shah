@@ -55,6 +55,32 @@ background:gray;
 color:white;
 }
 
+#menu {
+padding:0;
+margin:0;
+line-height: 40px;
+text-align:center;
+}
+
+
+#menu li {
+list-style:none;
+display:inline;
+
+}
+
+#menu a {
+text-decoration:none;
+color:white;
+padding: 8px;
+margin:5px;
+font-size:18px;
+font-family:comic Sans MS;
+}
+
+#menu a:hover{color:orange; font-weight:bolder; text-decoration:underline;}
+
+#form{float:right; padding-right:8px; line-height:40px;}
 
 .content_layout{
 width:1000px;
@@ -77,6 +103,36 @@ width:200px;
 height:800px;
 background:black;
 float:left;
+}
+
+#sidebar_title{
+background:white;
+color:black;
+font-size:22px;
+font-family:arial;
+padding:10px;
+text-align:center;
+}
+
+
+#categ li {
+list-style:none;
+text-align:center; 
+}
+
+#categ a {
+color:white; 
+padding:30px; 
+margin:10px; 
+font-size:18px; 
+text-decoration:none; 
+font-family:comic Sans;
+}
+
+#categ a:hover {
+color:orange; 
+font-weight:bolder; 
+text-decoration:underline;
 }
 
 #footer{
