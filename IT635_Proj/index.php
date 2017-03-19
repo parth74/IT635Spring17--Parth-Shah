@@ -1,4 +1,12 @@
 <!DOCTYPE>
+
+<?php
+
+include ('functions/function.php');
+
+
+?>
+
 <html>
 	<head>
 		<title> TechShop </title>
@@ -31,6 +39,7 @@
 				<li><a href="#">Contact Us</a></li>
 			
 			<ul>
+		</dic>
 
 		<div id="form">
 			<form method="get" action="results.php enctype="multipart/form-data">
@@ -45,40 +54,40 @@
 
 		<div class="content_layout" style="text-align:left;">
 
-			<div id="sidebar">
+	<div id="sidebar">
+
 		<div id="sidebar_title">Categories</div>
-				<ul id="categ">
-				<lil><a href="#">Computers</a></li>
-				<lil><a href="#">Mobiles</a></li>
-				<lil><a href="#">Cameras</a></li>
-				<lil><a href="#">Laptops</a></li>
-				<lil><a href="#">Tablets</a></li>
-				<lil><a href="#">Smart Watch</a></li>
-
-			<ul>
-			<div id="sidebar_title">Brands</div>
+			
 			<ul id="categ">
-				<lil><a href="#">HP</a></li>
-				<lil><a href="#">Dell</a></li>
-				<lil><a href="#">Motorola</a></li>
-				<lil><a href="#">Sony</a></li>
-				<lil><a href="#">LG</a></li>
-				<lil><a href="#">Apple</a></li>
+				
+				<?php getCateg(); ?>
 
 			<ul>
 
- </div>
-			<div id="content_area"> This is content area </div>
+			<div id="sidebar_title">Brands</div>
 
-		</div>
+			<ul id="categ">
+
+				<?php getBrands(); ?>
+			<ul>
+
+	 </div>
+		<div id="content_area"> This is content area </div>
+
+</div>
 		<!-- Content layout ends here -->
 
 
-			<div id="footer"> This is the footer </div>
+			<div id="footer"> 
+
+			<h2 style="text-align:center; padding-top:30px;">&copy; 2017 by https://www.w3schools.com/</h2>
+
+
+			 </div>
 
 	
 
-	</div>
+</div>
 
 <!-- Main container ends here -->
 
