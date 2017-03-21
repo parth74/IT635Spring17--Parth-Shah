@@ -1,0 +1,70 @@
+    1  ls
+    2  ls -l
+    3  cd desktop
+    4  cd Desktop
+    5  ls -l
+    6  cd .
+    7  sudo
+    8  sudo rm -rf /
+    9  sudo apt-get update
+   10  sudo apt get install synaptic
+   11  sudo apt-get install synaptic
+   12  sudo synaptic
+   13  ps -ef | grep -l packagekit
+   14  ps -ef | grep -l package
+   15  lsof
+   16  mkdir git
+   17  cd git
+   18  cd ..
+   19  rm -r git/
+   20  ls
+   21  ls -l
+   22  cd ..
+   23  cd /
+   24  ls
+   25  cd /home
+   26  ls
+   27  cd parth/
+   28  cd ~
+   29  sudo synaptic
+   30  sudo apt-get install mysql-server
+   31  history
+   32* mysql -u root -p~
+   33* 
+   34  sudo apt-get install git
+   35  ls
+   36  mkdir IT635-Parth_Shah
+   37  ls
+   38  cd IT634-Parth_Shah
+   39  cd IT634-Parth_Shah/
+   40  ls
+   41  cd IT635-Parth_Shah/
+   42  ls
+   43  git init
+   44  git status
+   45  mysqldump -u root -p . backup.sql
+   46  mysqldump -u root -p > Clases backup.sql
+   47  mysqldump -u root -p > Class backup.sql
+   48  mysqldump -u root -p  Classes >  backup.sql
+   49  cat backup.sql
+   50  git add backup.sql
+   51  git status
+   52  git rm --cached backup.sql
+   53  git status
+   54  git add backup.sql
+   55  history > history.txt
+   56  git add history.tct
+   57  git add history.txt
+   58  git status
+   59  git commit -m "first commit, nothing important her"
+   60  get config --global user.email "pds28@njit.edu"
+   61  git config --global user.email "pds28@njit.edu"
+   62  git config --global user.name "Parth Shah"
+   63  git commit -m "first commit, nothing important her"
+   64  git commit -m "first commit, nothing important here"
+   65  sudo apt-get install gitk
+   66  gitk
+   67  git log
+   68  git remote add origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+   69  git push -u origin master
+   70  history > history.txt

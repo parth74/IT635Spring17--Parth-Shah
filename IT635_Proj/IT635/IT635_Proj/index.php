@@ -18,7 +18,7 @@ include ('functions/function.php');
 
 	<!-- Main layout starts from here -->
 
-	<div class="main_layout">
+	<div class="main_wrapper">
 
 		<!-- Header starts here -->
 
@@ -29,19 +29,19 @@ include ('functions/function.php');
 		<div class="menubar">  
 
 			<ul id="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">All Products</a></li>
-				<li><a href="#">My Account</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="all_products.php">All Products</a></li>
+				<li><a href="myaccount.php">My Account</a></li>
 				<li><a href="#">Sign up</a></li>
-				<li><a href="#">Shopping Cart</a></li>
+				<li><a href="cart.php">Shopping Cart</a></li>
 				<li><a href="#">Contact Us</a></li>
 			
 			<ul>
 		
 
 		<div id="form">
-			<form method="get" action="results.php enctype="multipart/form-data">
-				<input type="text" name="user_name" placeholder="search a produt" />
+			<form method="get" action="results.php" enctype="multipart/form-data">
+				<input type="text" name="user_query" placeholder="search a product" />
 				<input type="submit" name="search" value="Search" />
 			</form>
 		</div>
@@ -50,7 +50,7 @@ include ('functions/function.php');
 
 		<!-- Content layout starts here-->
 
-		<div class="content_layout" style="text-align:left;">
+		<div class="content_wrapper" style="text-align:left;">
 
 	<div id="sidebar">
 
@@ -72,6 +72,7 @@ include ('functions/function.php');
 	 </div>
 </div>
 		<div id="content_area"> 
+		<?php cart(); ?>
 		
 			<div id="shopping_cart">
 			
@@ -86,7 +87,8 @@ include ('functions/function.php');
 			<div id="products_box">
 			
 			<?php getProd(); ?>
-			<?php getCategProd(); ?>
+			<?php getCatPro(); ?>
+			<?php getBrandPro(); ?>
 				
 			</div>
 
