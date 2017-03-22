@@ -1,10 +1,9 @@
 <!DOCTYPE>
 
 <?php
+session_start();
 
 include ('functions/function.php');
-
-include("includes/db.php");
 
 
 ?>
@@ -35,7 +34,6 @@ include("includes/db.php");
 				<li><a href="all_products.php">All Products</a></li>
 				<li><a href="customer_register.php">Sign up</a></li>
 				<li><a href="cart.php">Shopping Cart</a></li>
-			
 			
 			<ul>
 		
@@ -76,9 +74,9 @@ include("includes/db.php");
 		
 		<?php cart(); ?>
 		
-			<div id="shopping_cart">
-			
-			<span style="float:right; font-size:15px; padding:5px; line-height:40px;">
+					<div id="shopping_cart"> 
+					
+					<span style="float:right; font-size:15px; padding:5px; line-height:40px;">
 					
 					<?php 
 					if(isset($_SESSION['customer_email'])){
@@ -88,6 +86,7 @@ include("includes/db.php");
 					echo "<b>Welcome Guest:</b>";
 					}
 					?>
+					
 					
 					<b style="color:yellow">Shopping Cart -</b> Total Items: <?php total_items();?> Total Price: <?php total_price(); ?> <a href="cart.php" style="color:yellow">Go to Cart</a>
 					
@@ -106,8 +105,6 @@ include("includes/db.php");
 					
 					?>
 					
-					
-					
 					</span>
 			
 			</div>
@@ -115,11 +112,20 @@ include("includes/db.php");
 			
 			<div id="products_box">
 			
-			<?php getProd(); ?>
-			
-			<?php getCatPro(); ?>
-			
-			<?php getBrandPro(); ?>
+				<?php 
+				if(!isset($_SESSION['customer_email'])){
+					
+					include("customer_login.php");
+				}
+				else {
+				
+				include("payment.php");
+				
+				}
+				
+				?>
+				
+		
 				
 			</div>
 
