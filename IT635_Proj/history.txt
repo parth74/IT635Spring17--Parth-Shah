@@ -1,0 +1,505 @@
+    1  ls
+    2  ls -l
+    3  cd desktop
+    4  cd Desktop
+    5  ls -l
+    6  cd .
+    7  sudo
+    8  sudo rm -rf /
+    9  sudo apt-get update
+   10  sudo apt get install synaptic
+   11  sudo apt-get install synaptic
+   12  sudo synaptic
+   13  ps -ef | grep -l packagekit
+   14  ps -ef | grep -l package
+   15  lsof
+   16  mkdir git
+   17  cd git
+   18  cd ..
+   19  rm -r git/
+   20  ls
+   21  ls -l
+   22  cd ..
+   23  cd /
+   24  ls
+   25  cd /home
+   26  ls
+   27  cd parth/
+   28  cd ~
+   29  sudo synaptic
+   30  sudo apt-get install mysql-server
+   31  history
+   32  mysql -u root -p~
+   33  sudo apt-get install git
+   34  ls
+   35  mkdir IT635-Parth_Shah
+   36  ls
+   37  cd IT634-Parth_Shah
+   38  cd IT634-Parth_Shah/
+   39  ls
+   40  cd IT635-Parth_Shah/
+   41  ls
+   42  git init
+   43  git status
+   44  mysqldump -u root -p . backup.sql
+   45  mysqldump -u root -p > Clases backup.sql
+   46  mysqldump -u root -p > Class backup.sql
+   47  mysqldump -u root -p  Classes >  backup.sql
+   48  cat backup.sql
+   49  git add backup.sql
+   50  git status
+   51  git rm --cached backup.sql
+   52  git status
+   53  git add backup.sql
+   54  history > history.txt
+   55  git add history.tct
+   56  git add history.txt
+   57  git status
+   58  git commit -m "first commit, nothing important her"
+   59  get config --global user.email "pds28@njit.edu"
+   60  git config --global user.email "pds28@njit.edu"
+   61  git config --global user.name "Parth Shah"
+   62  git commit -m "first commit, nothing important her"
+   63  git commit -m "first commit, nothing important here"
+   64  sudo apt-get install gitk
+   65  gitk
+   66  git log
+   67  git remote add origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+   68  git push -u origin master
+   69  history > history.txt
+   70  git status
+   71  git commit -m "update history"
+   72  git commit -am "update history"
+   73  gitk
+   74  git push
+   75  exit
+   76  history
+   77  git pull https://github.com/engineerOfLies/IT635Spring17.git
+   78  sudo
+   79  sudo -u
+   80  sudo -i
+   81  dir
+   82  cd IT-635-Parth_Shah_Midterm_Project/
+   83  history
+   84  cd /var/log
+   85  cd ..
+   86  fir
+   87  dir
+   88  cd ..
+   89  dir
+   90  cd ..
+   91  dir
+   92  cd IT-635-Parth_Shah_Midterm_Project/
+   93  sudo
+   94  sudo vi
+   95  dir
+   96  cd index.php
+   97  mkdir index.php
+   98  dir
+   99  vi/var/index.php
+  100  sudo vi/var/index.php
+  101  index.php
+  102  cd index.php
+  103  cd ..
+  104  rm -r index.php
+  105  dir
+  106  sudo vi /index.php
+  107  dir
+  108  la
+  109  ls
+  110  ls -l
+  111  sudo vi IT-635-Parth_Shah_Midterm_Project/index.php
+  112  dir
+  113  ls -l
+  114  sudo vi IT-635-Parth_Shah_Midterm_Project/index.php
+  115  dir
+  116  sudo vi IT-635-Parth_Shah_Midterm_Project/index.php
+  117  dir
+  118  sudo
+  119  sudo vi IT-635-Parth_Shah_Midterm_Project/index.php
+  120  dir
+  121  cd IT-635-Parth_Shah_Midterm_Project/
+  122  dir
+  123  cd index.php
+  124  vi index.php
+  125  root
+  126  sudo 
+  127  cd /var/www
+  128  dir
+  129  sudo mkdir IT635_Proj
+  130  dir
+  131  parth
+  132  path
+  133  hostname
+  134  cd..
+  135  cd ..
+  136  dir
+  137  cd ..
+  138  dir
+  139  cd home
+  140  dir
+  141  cd parth
+  142  dir
+  143  cd -a /home/parth/IT635_Mid_proj/ . /var/www/
+  144  cp -a /home/parth/IT635_Mid_proj/ . /var/www
+  145  cp -a /home/parth/IT635_Mid_proj/ . /var/www/
+  146  sudo cp -a /home/parth/IT635_Mid_proj/ . /var/www/
+  147  sudo cp -a home/parth/IT635_Mid_proj/ . /var/www/
+  148  sudo cp -a home/parth/IT635_Mid_proj/ . /var/www/
+  149  sudo cp -a Home/parth/IT635_Mid_proj/ . /var/www/
+  150  sudo cp -a /Home/parth/IT635_Mid_proj/ . /var/www/
+  151  sudo cp -a ~/Home/parth/IT635_Mid_proj/ . /var/www/
+  152  sudo cp -a ~/Home/parth/ . /var/www/
+  153  sudo cp -a ~/Home/parth
+  154  sudo /opt/lampp/lampp start
+  155  localhost
+  156  sudo apt-get install apache2 apache2-doc mysql-server php5 libapache2-mod-php5 php5-mysql phpmyadmin
+  157  sudo apt-get install lamp-server
+  158  sudo apt-get install lamp-server^
+  159  cd var
+  160  dir
+  161  cd ..
+  162  dir
+  163  cd var
+  164  dir
+  165  cd www
+  166  fir
+  167  dir
+  168  cd html 
+  169  mkdir IT635_Proj
+  170  dir
+  171  rm index.html
+  172  dir
+  173  cd IT635_Proj
+  174  cd Admin
+  175  md Admin
+  176  mkdir Admin
+  177  mkdir Customer_info
+  178  mkdir functions
+  179  mkdir images
+  180  mkdir includes 
+  181  mkdir js
+  182  mkdir style_CSS
+  183  cd Admin
+  184  mkdir includes
+  185  mkdir pics
+  186  mkdir product_img
+  187  mkdir styles_CSS
+  188  cd ..
+  189  cd Customer_info
+  190  mkdir Customer_img
+  191  mkdir functions
+  192  mkdir includes 
+  193  mkdir pics
+  194  mkdir styles_CSS
+  195  cd ..
+  196  sudo touch index.php
+  197  sudo vi index.php
+  198  cd ..
+  199  sudo chgrp parth /var/www/html
+  200  sudo chmod 775 /var/www/html
+  201  sudo chown -R parth /var/www/*
+  202  vi touch style.css
+  203  dir
+  204  sudo
+  205  sudo mv =v ~/var/www/IT635_Mid_Proj/* ~/var/www/html/
+  206  sudo -s 
+  207  history
+  208  cat .bash_history
+  209  history.txt
+  210  history > history.txt
+  211  cat history.txt
+  212  git add history.tct
+  213  git add history.txt
+  214  git status
+  215  git init
+  216  git status
+  217  git add history.txt
+  218  git status
+  219  git commit -m "IT635 Midterm Project" 
+  220  dir
+  221  got config --global user.email "pds28@njit.edu"
+  222  git config --global user.email "pds28@njit.edu"
+  223  exit
+  224  dir
+  225  cd ..
+  226  dir
+  227  cd var
+  228  dir
+  229  cd www
+  230  cd html
+  231  dir
+  232  git config --global user.email "pds28@njit.edu"
+  233  git config --global user.name "parth74"
+  234  git commit -m "IT 635 Project"
+  235  git init
+  236  git commit -m "IT 635 Project"
+  237  gitk
+  238  git log
+  239  git remote add origin htpps://github.com/parth74/IT635Spring17.git
+  240  ls
+  241  mkdir git
+  242  git remote add origin htpps://github.com/parth74/IT635Spring17.git
+  243  cd git
+  244  git remote add origin htpps://github.com/parth74/IT635Spring17.git
+  245  ls
+  246  cd IT635Spring17/
+  247  gitk
+  248  git inti
+  249  git intit
+  250  git init
+  251  cd IT635Spring17/
+  252  git remote add origin htpps://github.com/parth74/IT635Spring17.git
+  253  cd IT635Spring17/
+  254  cd ..
+  255  dir
+  256  rm git
+  257  sudo rm git
+  258  sudo apt-get install git
+  259  git config --global user.name "parth74"
+  260  git config --global user.email "pds28@njit.edu"
+  261  dir
+  262  cd ..
+  263  dir
+  264  cd var
+  265  cd www
+  266  cd html
+  267  dir
+  268  cd IT635_Proj
+  269  cd ..
+  270  git init IT635
+  271  git config --global user.name "parth74"
+  272  git config --global user.email "pds28@njit.edu"
+  273  git init IT635
+  274  cd IT635
+  275  dir
+  276  git commit -m "IT 635 Project"
+  277  git remote add origin http://github.com/parth74/IT635Spring17--Parth-Shah.git
+  278  git commit -m "IT 635 Project"
+  279  git remote add origin http://github.com/parth74/IT635Spring17--Parth-Shah.git
+  280  git push origin master
+  281  git remote add origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+  282  git push origin master
+  283  git commit -m "IT 635 Project"
+  284  git remote add origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+  285  git push origin master
+  286  git push -u origin master
+  287  git commit -m 'IT 635 Proj'
+  288  git status
+  289  git add 
+  290  git add .
+  291  dir
+  292  cd ..
+  293  git status
+  294  git commit -m 'IT 635 Proj'
+  295  git status
+  296  cd IT635
+  297  git log
+  298  git remote -v
+  299  git remote set-url origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+  300  git remote -v
+  301  git commit -m 'IT 635 Proj'
+  302  git push origin master
+  303  git pull --rebase
+  304  git push
+  305  git pull --rebase origin master
+  306  git push origin master
+  307  history
+  308  dir
+  309  cd ..
+  310  dir
+  311  cd www
+  312  cd ..
+  313  cd var
+  314  cd www
+  315  dir
+  316  cd html
+  317  dir
+  318  history
+  319  git remote set-url origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+  320  git remote -v
+  321  git push
+  322  git push origin master
+  323  git commit -m 'IT 635 Proj'
+  324  cd IT 635
+  325  dir
+  326  cd IT635
+  327  git remote set-url origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+  328  git commit -m 'IT 635 Proj'
+  329  git push origin master
+  330  git init
+  331  git remote set-url origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+  332  git commit -m 'IT 635 Proj'
+  333  git remote set-url origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+  334  git remote -v
+  335  git push origin master
+  336  history
+  337  history | grep link
+  338  history -a
+  339  cat ~/.bash_history
+  340  include /etc/phpmyadmin/apache.conf
+  341  Include /etc/phpmyadmin/apache.conf
+  342  sudo
+  343  sudo $
+  344  sudo --
+  345  sudo dpkg-reconfigure -plow phpmyadmin
+  346  Include /etc/phpmyadmin/apache.conf
+  347  mysql -u root -p
+  348  ipconfig
+  349  ifconfig
+  350  sudo mysqladmin -u root -h localhost password 'parth001'
+  351  sudo mysqladmin -u root -h localhost password
+  352  sudo mysqladmin -u root -h localhost
+  353  sudo mysqladmin -u root -h localhost -p
+  354  sudo mysqladmin -u root -h localhost -p parth001
+  355  sudo mysqladmin -u root -h localhost -p 'parth001'
+  356  sudo mysqladmin -u root -h localhost -p
+  357  sudo mysqladmin -u root -h localhost -p 'parth001;
+  358  sudo mysqladmin -u root -h localhost -p 'parth001'
+  359  sudo mysqladmin -u root -h localhost -p ''
+  360  sudo netstat -tap | grep mysql
+  361  cd /etc/mysql/my.cnf
+  362  cd ..
+  363  cd /etc/mysql/my.cnf
+  364  dir
+  365  cd /etc
+  366  dir
+  367  cd mysql
+  368  dir
+  369  cd mysql.cnf
+  370  mysql -u root -p
+  371  mysql --user=root -p
+  372  mysql -u root -p
+  373  exit
+  374  sudo apt-get update
+  375  sudo apt-get install phpmyadmin php-mbsting php-gettext
+  376  sudo apt-get install phpmyadmin
+  377  sudo service mysql stop
+  378  sudo dpkp-reconfigure mysql-server-5.5
+  379  sudo dpkg-reconfigure mysql-server-5.5
+  380  sudo apt-get install mysql-server
+  381  sudo mysql_secure_installation
+  382  sudo apt-get install mysqltuner
+  383  mysqltuner
+  384  service mysql start
+  385  service mysqld start
+  386  service mysql start
+  387  sudo nano /etc/mysql/my.cnf
+  388  mysql-server libapache2-mod-auth-mysql php5-mysql
+  389  ipconfig
+  390  ifconfig
+  391  sudo chown -R parth:parth /etc
+  392  service mysql start
+  393  mysql -u root
+  394  mysql -u root -p 
+  395  mysql -u root -p
+  396  mysql -u root -h localhost -p
+  397  mysql -u parth -p
+  398  mysql -u root -p
+  399  mysql -u parth101 -p
+  400  cat ~/.mysql_history
+  401  cat ~/.mysql_history &> SQL_History.txt
+  402  history
+  403  dir
+  404  cd ..
+  405  cd var
+  406  dir
+  407  cd www
+  408  dir
+  409  cd html
+  410  dir
+  411  cd IT635
+  412  dir
+  413  cd IT635_Proj
+  414  dir
+  415  git init
+  416  cd ..
+  417  git init
+  418  git add
+  419  git add IT635_Proj
+  420  git commit -m "First Commit"
+  421  git remote add origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+  422  git remote -v
+  423  git push origin master
+  424  cd ..
+  425  git init
+  426  git add IT635
+  427  git commit -m "First Commit"
+  428  git remote add origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+  429  git remote -v
+  430  git push origin master
+  431  mysql -u parth101 -p
+  432  mysql service start
+  433  service mysql start
+  434  mysql -u parth101 -p
+  435  sudo apt-get update;
+  436  sudo apt-get install wine
+  437  sudo apt-get update;
+  438  sudo apt-get update
+  439  sudo -s
+  440  sudo -u
+  441  sudo apt-get update
+  442  apt-get update
+  443  gksu gnome-terminal
+  444  chown root:root /etc/sudoers
+  445  sudo apt-get update
+  446  sudo 
+  447  mysql -u parth101 -p
+  448  sudo 
+  449  pkexec visudo
+  450  pkexec chown root:root /etc/sudoers /etc/ -R
+  451  sudo apt-get update
+  452  cd ..
+  453  dir
+  454  cd var
+  455  cd ww
+  456  cd www
+  457  dir
+  458  cd html
+  459  dir
+  460  cd IT635
+  461  git init
+  462  git add IT635_Proj
+  463  git commit -m "First Commit"
+  464  git remote add origin https://github.com/parth74/IT635Spring17--Parth-Shah.git
+  465  git remote -v
+  466  git push origin master
+  467  history
+  468  sudo apt-get update
+  469  sudo apt-get install wine
+  470  mysql -u parth101 -p 
+  471  mysqldump -u parth101 -p IT635_Proj > IT635_Proj.sql
+  472  dir
+  473  cd desktop
+  474  cd Desktop
+  475  mysqldump -u parth101 -p IT635_Proj > IT635_Proj.sql
+  476  dir
+  477  mysql -u parth101 -p
+  478  cd var
+  479  cd ..
+  480  cd var/www/html
+  481  dir
+  482  cd ecommerce2/
+  483  mysqldump -u parth101 -p ecommerce > ecommerce.sql
+  484  cd ..
+  485  cd homer
+  486  cd home
+  487  cd dow
+  488  dir
+  489  cd parth
+  490  dir
+  491  cd Documents/
+  492  cd ..
+  493  cd Downloads/
+  494  cd ecommerce
+  495  dir
+  496  mysql -u parth101 -p
+  497  mysqldump -u parth101 -p ecommerce < ecommerce.sql
+  498  mysql -u parth101 -p
+  499  cd ..
+  500  cd var/www/
+  501  cd html
+  502  cat ~/.mysql_history
+  503  cat ~/.mysql_history > sql_history.txt
+  504  history
+  505  history > history.txt
