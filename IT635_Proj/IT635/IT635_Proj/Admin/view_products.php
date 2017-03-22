@@ -42,7 +42,7 @@ else {
 	<tr align="center">
 		<td><?php echo $i;?></td>
 		<td><?php echo $pro_title;?></td>
-		<td><img src="product_img/<?php echo $pro_image;?>" width="60" height="60"/></td>
+		<td><img src="product_img/"<?php echo $pro_image;?>" width="60" height="60"/></td>
 		<td><?php echo $pro_price;?></td>
 		<td><a href="index.php?edit_pro=<?php echo $pro_id; ?>">Edit</a></td>
 		<td><a href="delete_pro.php?delete_pro=<?php echo $pro_id;?>">Delete</a></td>

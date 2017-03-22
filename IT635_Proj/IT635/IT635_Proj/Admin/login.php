@@ -1,6 +1,6 @@
 <?php 
 session_start();
-i
+
 ?>
 <!DOCTYPE>
 <html>
@@ -57,3 +57,16 @@ include("includes/db.php");
 	
 	}
 	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+?>
